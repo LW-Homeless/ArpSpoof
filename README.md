@@ -41,11 +41,11 @@ En este caso la interface se muestra deshabilitada (Disabled), en la foto se mue
 
 ## Configuración en Linux.
 - Abra una terminal y ejecute el siguiente comando: echo 1 > /proc/sys/net/ipv4/ip_forward .
-![alt text](https://github.com/LW-Homeless/ArpSpoof/blob/main/img/foto_kali1.PNG)
+![alt text]https://github.com/LW-Homeless/ArpSpoof/blob/main/img/foto_kali_1.PNG
 
 - Luego, verifique que los cambios se han realizado con exito. Con el siguiente comando: cat  /proc/sys/net/ipv4/ip_forward . Al ejecutar el comando se deberia imprimir en la terminal el número 1, lo que significa que el cambio se realizo con exito.
 
-![alt text](https://github.com/LW-Homeless/ArpSpoof/blob/main/img/foto_kali2.PNG)
+![alt text]https://github.com/LW-Homeless/ArpSpoof/blob/main/img/foto_kali_2.PNG
 
 # Instrucciones de uso
 - Descarga o clona el repositorio.
