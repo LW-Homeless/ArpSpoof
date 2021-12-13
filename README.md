@@ -11,17 +11,17 @@ Herramienta para realizar pruebas de envenenamiento de tablas arp, también este
 Antes de utilizar el script se debe establecer el redirecionamiento de IP (IP Forwarding). aquí se explicará tanto para sistemas windows como para linux. Cabe mencionar que el script fue probado en Kali Linux y Windows 10.
 
 ## Configuración en windows.
-- Abra una commamd promp (cmd) con permiso de administración.
+- Abra una commamd prompt (cmd) con permiso de administrador.
 
-- Ejecute el siguiente comando: netsh. Se cagara la consola de la utilidad netsh.exe en la ventana de comandos.
+- Ejecute el siguiente comando: netsh. Se cargará en la consola la utilidad netsh.exe en la ventana de comandos.
  
 ![alt text](https://github.com/LW-Homeless/ArpSpoof/blob/main/img/foto1.PNG)
 
-- Ingrese el siguiente comando: interface ipv4. en la venta de comando se estableceran la interfaces de IPv4.
+- Ingrese el siguiente comando: interface ipv4. en la ventana de comando se establecera la interfaces de IPv4.
 
 ![alt text](https://github.com/LW-Homeless/ArpSpoof/blob/main/img/foto2.PNG)
 
-- Luego, ingrese el comando: show interface. Se mostrara un listado de las interfaces de red.
+- Luego, ingrese el comando: show interface. Se mostrará un listado de las interfaces de red IPv4.
  
 ![alt text](https://github.com/LW-Homeless/ArpSpoof/blob/main/img/foto3.PNG)
 
@@ -42,7 +42,11 @@ En este caso la interface se muestra deshabilitada (Disabled), en la foto se mue
 ## Configuración en Linux.
 - Abra una terminal y ejecute el siguiente comando: echo 1 > /proc/sys/net/ipv4/ip_forward .
 
+![alt text](https://github.com/LW-Homeless/ArpSpoof/blob/main/img/foto_kali_1.PNG)
+
 - Luego, verifique que los cambios se han realizado con exito. Con el siguiente comando: cat  /proc/sys/net/ipv4/ip_forward . Al ejecutar el comando se deberia imprimir en la terminal el número 1, lo que significa que el cambio se realizo con exito.
+
+![alt text](https://github.com/LW-Homeless/ArpSpoof/blob/main/img/foto_kali_2.PNG)
 
 # Instrucciones de uso
 - Descarga o clona el repositorio.
@@ -50,15 +54,15 @@ En este caso la interface se muestra deshabilitada (Disabled), en la foto se mue
 ```
 pip install -r requirements.txt
 ```
-- Luego, ejecuta el archivo Main.py con el siguiente comando.
+- Luego, ejecuta el archivo main.py con el siguiente comando.
 ```
-python main.py -t [IP_Obejetivo]  -h [IP Host]
+python main.py -t [IP_Obejetivo]  -g [IP_Gateway]
 ```
 Ejemplo de ejecución:
 ```
-python main.py -t 10.10.10.1 -h 10.10.10.23
+python main.py -t 10.10.10.23 -g 10.10.10.1
 ```
-El comando anterior comenzará a realizar el envenamiento de las tablas arp del objetivo y host.
+El comando anterior comenzará a realizar el envenamiento de las tablas arp del objetivo y Gateway.
 
 ------------
 
