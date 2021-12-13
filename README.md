@@ -19,7 +19,7 @@ Antes de utilizar el script se debe establecer el redirecionamiento de IP (IP Fo
 
 - Ingrese el siguiente comando: interface ipv4. en la venta de comando se estableceran la interfaces de IPv4.
 
-- ![alt text](https://github.com/LW-Homeless/ArpSpoof/blob/main/img/foto2.PNG)
+![alt text](https://github.com/LW-Homeless/ArpSpoof/blob/main/img/foto2.PNG)
 
 - Luego, ingrese el comando: show interface. Se mostrara un listado de las interfaces de red.
  
