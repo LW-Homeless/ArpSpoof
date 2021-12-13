@@ -25,7 +25,7 @@ Antes de utilizar el script se debe establecer el redirecionamiento de IP (IP Fo
  
 ![alt text](https://github.com/LW-Homeless/ArpSpoof/blob/main/img/foto3.PNG)
 
-- Verificar si la opción IP forward la interface activa en su ordenador, esta habilitada o deshabilitada. En este caso se verificará la interface número 9 con el siguiente comando: show interface 9. Donde el número 9 hace referencia al ID de la interface que se muestra en la columna "Ind".
+- Verificar si la opción IP forward de la interface activa en su ordenador, esta habilitada o deshabilitada. En este caso se verificará la interface número 9 con el siguiente comando: show interface 9. Donde el número 9 hace referencia al ID de la interface que se muestra en la columna "Ind".
  
 ![alt text](https://github.com/LW-Homeless/ArpSpoof/blob/main/img/foto4.PNG)
 
