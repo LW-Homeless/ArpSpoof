@@ -56,13 +56,13 @@ pip install -r requirements.txt
 ```
 - Luego, ejecuta el archivo main.py con el siguiente comando.
 ```
-python main.py -t [IP_Obejetivo]  -h [IP Host]
+python main.py -t [IP_Obejetivo]  -g [IP_Gateway]
 ```
 Ejemplo de ejecución:
 ```
-python main.py -t 10.10.10.1 -g 10.10.10.23
+python main.py -t 10.10.10.23 -g 10.10.10.1
 ```
-El comando anterior comenzará a realizar el envenamiento de las tablas arp del objetivo y host.
+El comando anterior comenzará a realizar el envenamiento de las tablas arp del objetivo y Gateway.
 
 ------------
 
