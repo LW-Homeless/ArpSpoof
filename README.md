@@ -33,7 +33,7 @@ En este caso la interface se muestra deshabilitada (Disabled), en la foto se mue
 
 - Por último, debemos cambiar el parámetro de "reenvío" o "Forwarding" a enabled. Con el siguiente comando: set interface 9 forwarding="enabled".
  
-![alt text](https://github.com/LW-Homeless/ArpSpoof/blob/main/img/foto5.PNG) 
+![alt text](https://github.com/LW-Homeless/ArpSpoof/blob/main/img/Foto5.PNG) 
 
 - Finalmente, puede ejecutar el comando: show interface 9, para ver si los cambios se realizaron exitosamente.
  
