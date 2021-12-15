@@ -30,7 +30,7 @@ class Main:
             args = parser.parse_args()
 
             if args.t is None:
-                print(Fore.RED + "[X] No ha ingresado ip host")
+                print(Fore.RED + "[X] No ha ingresado ip target")
             elif args.g is None:
                 print(Fore.RED + "[X] No ha ingresado ip Gateway")
             else:
